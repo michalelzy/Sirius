@@ -16,6 +16,7 @@ public struct MenuItem {
     public init(image: UIImage, highlightedImage: UIImage? = nil) {
         self.image = image
         self.highlightedImage = highlightedImage
+        print("A New MenuItem created")
     }
 }
 
